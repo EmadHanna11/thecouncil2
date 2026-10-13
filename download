@@ -1,0 +1,11 @@
+node_modules/
+.netlify/
+.data/
+.test-data/
+.env
+.env.*
+__pycache__/
+*.pyc
+/generated-artifacts/
+*.zip
+.DS_Store

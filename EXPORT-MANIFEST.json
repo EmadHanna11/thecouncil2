@@ -1,0 +1,258 @@
+{
+  "project": "The Council",
+  "packaged": "2026-10-13",
+  "files": {
+    ".gitignore": {
+      "bytes": 112,
+      "sha256": "01494aa3e97b2b8de40b127f81b111c77fce2ea4b168c13d77904f11d9f65283"
+    },
+    ".replit": {
+      "bytes": 924,
+      "sha256": "01e54ad1e4741bddd7c9d984853c139eb519df200d2a1454532a82728f7c02bd"
+    },
+    ".replitignore": {
+      "bytes": 22,
+      "sha256": "377fce7c2d49eb04244e222ecbc62c61b425909b82d15f8cdf8ede220d933f5d"
+    },
+    "HOW-TO-REBUILD.txt": {
+      "bytes": 1245,
+      "sha256": "c3df525d1b15c79c931e478ce65a02cc616474e91686c5a1a44c22c745f43313"
+    },
+    "README.md": {
+      "bytes": 2758,
+      "sha256": "2f9833029a7302ed3bcc411bb296cabe12ba8accaba05ff5e83754b4f6f5ddd6"
+    },
+    "pyproject.toml": {
+      "bytes": 166,
+      "sha256": "40375c0159a88d72aee8453540e9e548341f20862e7b7be48feb018a6d417a71"
+    },
+    "scripts/post-merge.sh": {
+      "bytes": 285,
+      "sha256": "a85f058877ed4cfbf0da5c9c5e81ffb4a278f239ed3ab982b37f586f790b1e85"
+    },
+    "source/backup-utils.js": {
+      "bytes": 8882,
+      "sha256": "87bdccbb365fa25b1ad37bc1bf707103b700b3a9a9177e51fcbbafc174bdcb94"
+    },
+    "source/backup.test.mjs": {
+      "bytes": 4686,
+      "sha256": "5c76a3665683e519a91606feba3674410bd96ed246a6685cad294f23bef4e228"
+    },
+    "source/build-site.py": {
+      "bytes": 10951,
+      "sha256": "d04a9e6a5de4613a40e6d6e741f513af221428b724958b48d21413eb28457e81"
+    },
+    "source/build4.py": {
+      "bytes": 1464,
+      "sha256": "eb3d38a862a928ca2937cf84f0f35015f69972f13267e04d734535b19bcc6c3b"
+    },
+    "source/data.json": {
+      "bytes": 672586,
+      "sha256": "8b8f679da8a3b3d6b5e81782b6d6dafef4a6f864a7fd34a91064fd880a0f265e"
+    },
+    "source/extract_prompts.py": {
+      "bytes": 3857,
+      "sha256": "ee93e99dd26fb6c32349cceb9a44950d5b699ef754b0077a77d0c8914ddb8993"
+    },
+    "source/friends-client.js": {
+      "bytes": 1028,
+      "sha256": "0d07380eb83105c5f39c10306314cd2100f71ec1d574123255cc2fbde2d633b9"
+    },
+    "source/friends-ui.js": {
+      "bytes": 39547,
+      "sha256": "ecdc048a40eed5262e05d425fea3471d9909b8013d03204f47d202aa3de46b7b"
+    },
+    "source/import_sheet.py": {
+      "bytes": 1897,
+      "sha256": "3c2cbd11ca2658d27514afae6ac39fccfc291cfc5b54ee45a931193e87b8fa1d"
+    },
+    "source/logo-dark.txt": {
+      "bytes": 10650,
+      "sha256": "7704ed4843cade6ce8712eb4ef55d1e1a8f8042e572d43623377f1fd33d4cfde"
+    },
+    "source/logo-light.txt": {
+      "bytes": 11622,
+      "sha256": "cda157e879fb41e5f8816b0f37df60eb6ffb081b8cb278bd73459d26e27fe982"
+    },
+    "source/personas-sheet.xlsx": {
+      "bytes": 179623,
+      "sha256": "ccbbda723be4179d3c6191232482292b976241804c5fe94e698abdccee617692"
+    },
+    "source/rooms-ui.js": {
+      "bytes": 77457,
+      "sha256": "f15e8a4781cba41233b261c38c1db9a994cf633850742a366da04e750a661af6"
+    },
+    "source/seg2fix.py": {
+      "bytes": 2888,
+      "sha256": "f5b228c2fec3af2be5a6bbba297c82ebcaa29f80b146f606f37e7a411acaa6e8"
+    },
+    "source/shares-ui.js": {
+      "bytes": 59197,
+      "sha256": "495b345d2c1b1715a5f21205af98ca7fb780eb9e5e1039a80d85b63a02854fe1"
+    },
+    "source/site-shim.js": {
+      "bytes": 7229,
+      "sha256": "4c50707f9e3f15f9a2684ccfc2e6bec6d5cd086716fe1435b0a6f359f1a86cfb"
+    },
+    "source/template.html": {
+      "bytes": 104448,
+      "sha256": "0702255610cd727c14113ada2f839d1abe9d940a836601bfbf819d82751d2032"
+    },
+    "source/v4-app.js": {
+      "bytes": 160766,
+      "sha256": "3520703ca477fb75ae709d735ff1d008cddb11ad10ec642de78d059c4369d87e"
+    },
+    "source/v4-core.js": {
+      "bytes": 23359,
+      "sha256": "8eed975791e288060394ba7b03d839cc0f35ff3243ecbe86fd63216449a51841"
+    },
+    "source/v4-head.html": {
+      "bytes": 67957,
+      "sha256": "6dfafae3103b9a7eb2ab1b785b5ec2b05a3e4edb303cd11c9c09b9ec3bd78c60"
+    },
+    "the-council.html": {
+      "bytes": 975323,
+      "sha256": "908ea198825b4f311c805a7179f003be14d6bdba652c49c7ae370745d333c6d7"
+    },
+    "uv.lock": {
+      "bytes": 17797,
+      "sha256": "e79d465460c73314ceb97f9225f0436420b343ebed19e00d9d8c674dc4eb90e5"
+    },
+    "website/.gitignore": {
+      "bytes": 51,
+      "sha256": "b1f09132aaec835adf2310f1dbf689455418b34d0e2b96714197e168e7f46a9a"
+    },
+    "website/README.md": {
+      "bytes": 3457,
+      "sha256": "c069180819a0f3ed738fa99e5cb20bff36aed98ccbd66f5c727f747dd3dd7451"
+    },
+    "website/db/schema.sql": {
+      "bytes": 327,
+      "sha256": "d65ef9118df9fc357f4833b84a80cadd0399ffd38df446cafac22f1f561afc5e"
+    },
+    "website/netlify.toml": {
+      "bytes": 203,
+      "sha256": "13c8ffcf9e62f2b7a1399b8025b12a729666b5af3c6999b469e021388025b695"
+    },
+    "website/netlify/functions/admin.mts": {
+      "bytes": 4784,
+      "sha256": "0a28998c940e166bfe41e92e91ee8b36aab917e943adbaa305f09b87eede9095"
+    },
+    "website/netlify/functions/ai.mts": {
+      "bytes": 12508,
+      "sha256": "0dab3bd34aaf8f9b538d479371182c68fe3430f803aa2b592871a3d2de021728"
+    },
+    "website/netlify/functions/auth.mts": {
+      "bytes": 8315,
+      "sha256": "ce51482623aa422435efcd8b105848b37d246a8f16404c455c561a19798848ba"
+    },
+    "website/netlify/functions/friends.mts": {
+      "bytes": 9638,
+      "sha256": "571f4fa47096c5328b31d697946afc91057a54f9e668f0303128c841bd71e359"
+    },
+    "website/netlify/functions/rooms.mts": {
+      "bytes": 12214,
+      "sha256": "c4144b24642ea3380e7f1296390bd55a9c94f40265ad533042e811d113f03686"
+    },
+    "website/netlify/functions/shares.mts": {
+      "bytes": 4510,
+      "sha256": "e7910d7ca2978d00ca5006012f48d129a6bbd62e58b80320f68e0326129f4ec9"
+    },
+    "website/netlify/functions/stats.mts": {
+      "bytes": 3240,
+      "sha256": "4c37dfbb8ea2c5535d7443078a538827c8453ac1547eb8eaf55d37914b52d40a"
+    },
+    "website/netlify/lib/auth.mts": {
+      "bytes": 5075,
+      "sha256": "fc770644468e5611b4e40e81563054831a79a0271bd787c2d1cfc39d63bcdd45"
+    },
+    "website/netlify/lib/passwords.mts": {
+      "bytes": 1244,
+      "sha256": "30105791293ecb83d1ce0bd999f9604be3d780f4eb8d763195b9f2ac7fa40207"
+    },
+    "website/netlify/lib/personas.json": {
+      "bytes": 661855,
+      "sha256": "d424bb10b9731267bca3375fd25d8aa725141e2b200c36fd5213f1260c9c22ea"
+    },
+    "website/netlify/lib/postgres-store.mts": {
+      "bytes": 4010,
+      "sha256": "2a5af1aafd291711468f50af8d9de6d29c0c85ae21a303edb2123b6238cb3eee"
+    },
+    "website/netlify/lib/prompts.mjs": {
+      "bytes": 13637,
+      "sha256": "184c68a2abafb71d0195c6cc38ca7241a3c93988d1e48a152aaf91e0d9e6c242"
+    },
+    "website/netlify/lib/rooms.mts": {
+      "bytes": 5442,
+      "sha256": "c1adec49136a44b7fcf44954c2d8a54e87ab765ecffaefddd689919d7f6fb8cb"
+    },
+    "website/netlify/lib/shares.mts": {
+      "bytes": 5803,
+      "sha256": "e4123b1e1b9bba88dd69395ed8890d7c1a21ea3456000b2d8fe8c7d8967faf81"
+    },
+    "website/netlify/lib/store.mts": {
+      "bytes": 6931,
+      "sha256": "afb3336544ed14a5a1cb033dd30beb0430923ccb5f29ba4b06d7c9012058e8c7"
+    },
+    "website/package-lock.json": {
+      "bytes": 31995,
+      "sha256": "d63fa320f8f0b57e5acc64a1cd9804ceac755544f99fa9c826e9ac02ec196542"
+    },
+    "website/package.json": {
+      "bytes": 516,
+      "sha256": "6f2a1eb5c22862cf2a04950dba9a57a754b03a394e24abd3b25277ad48359c33"
+    },
+    "website/public/index.html": {
+      "bytes": 697525,
+      "sha256": "99cdb76b50b1f499c817ffc71650d5386c7070829ecc337913e44bc9c182bc03"
+    },
+    "website/replit-server.mjs": {
+      "bytes": 4514,
+      "sha256": "c3d0a53d1ec010b3ef3461a189aa43c2f166a44507f3c51f8ad47285e5112d89"
+    },
+    "website/scripts/import-local-storage.mjs": {
+      "bytes": 1180,
+      "sha256": "879f9f92a4cfe848e2eae9576883437c6b3d350bcaa18c5b9a6bfcf431f5ca07"
+    },
+    "website/tests/auth.test.mjs": {
+      "bytes": 11995,
+      "sha256": "763f1e6b67435a1f25ed682b0777f180f7b11d0c8708808f0437e275436562f5"
+    },
+    "website/tests/database.test.mjs": {
+      "bytes": 2046,
+      "sha256": "bdbe98cf9e410ef8af406da6058a3a434ca58053e23efb6931f5f2ca37fff0a0"
+    },
+    "website/tests/friends.test.mjs": {
+      "bytes": 5893,
+      "sha256": "ce69d8aefb121bb6d89e9727850aff6eaa9bbcceb606f09fb61d7a494ede3206"
+    },
+    "website/tests/limits.test.mjs": {
+      "bytes": 2502,
+      "sha256": "a57f2f89c8c059550fcff026d7964aa0b4822b091d6bb78e41d9321e38f4fdac"
+    },
+    "website/tests/premium.test.mjs": {
+      "bytes": 5462,
+      "sha256": "075c9ca8327bed2e931fee454d269af9b75fe824b275744be598594f78f21f5f"
+    },
+    "website/tests/rooms-ui.test.mjs": {
+      "bytes": 2842,
+      "sha256": "5c13765face52d3af67b09f7a8638e4f45313e6dcf23ead2673c55a3d22c06f2"
+    },
+    "website/tests/rooms.test.mjs": {
+      "bytes": 16007,
+      "sha256": "2b2aa726d580a1464adb6652694cc2c703fe5b870aa07e84770737e84f79a532"
+    },
+    "website/tests/server.test.mjs": {
+      "bytes": 3600,
+      "sha256": "223f3e8ebaa9f15b784139b1d43697e9b2112f984f443775edb01e355d3e72f1"
+    },
+    "website/tests/shares-ui.test.mjs": {
+      "bytes": 4745,
+      "sha256": "837b3badee68e3ae8a6796e79716745f9560742e2b2e68eeba053e70a3e89016"
+    },
+    "website/tests/shares.test.mjs": {
+      "bytes": 10631,
+      "sha256": "b904948721fa807056d866e02ef33710aefbdf264866b50ebdb89e0fea03bc08"
+    }
+  }
+}

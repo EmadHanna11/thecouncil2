@@ -1,0 +1,18 @@
+The Council — project backup
+
+the-council.html        The Claude artifact version (latest).
+website/                The Netlify site (deploy this folder). public/index.html is built output.
+source/                 Editable sources:
+  v4-head.html (styles), v4-core.js + v4-app.js (app), template.html (base data/utilities),
+  site-shim.js (website bridge), data.json (personas + questions), logos.
+  build4.py       -> rebuilds the-council.html
+  build-site.py   -> rebuilds website/public/index.html and website/netlify/lib/prompts.mjs + personas.json
+Build scripts now resolve paths relative to this project. Install website dependencies
+with `cd website && npm ci`, then rebuild with `npm run build` (Node.js 24 and Python 3).
+Optional spreadsheet import requires openpyxl. Hosting secrets (never put them in files):
+MOONSHOT_API_KEY, optional SITE_PASSKEY (admin). Name/email/password accounts
+are enabled by default without any email service; REQUIRE_SIGNIN=0 disables them.
+
+Updating the persona library from a new sheet:
+  python3 source/import_sheet.py <sheet.xlsx>   (writes data.json: library = the sheet; removed personas kept hidden so old discussions still open)
+  then run build4.py (Claude version) and build-site.py (website).

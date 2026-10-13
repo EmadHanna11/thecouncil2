@@ -1,0 +1,22 @@
+{
+  "name": "the-council",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node replit-server.mjs",
+    "start": "node replit-server.mjs",
+    "build": "python3 ../source/build4.py && python3 ../source/build-site.py",
+    "test": "node --test tests/*.test.mjs ../source/backup.test.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.1",
+    "@netlify/functions": "^6.0.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "terser": "^5.44.0"
+  }
+}
